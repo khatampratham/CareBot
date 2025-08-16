@@ -20,3 +20,14 @@ AI for healthcare monitoring: fall detection, patient activity tracking, and ale
    ```powershell
    python -m pip install -r requirements.txt
 4. run the server
+   ```powershell
+   uvicorn app.main:app --reload --port 8009
+5. try testing with `/wrte` for the endpoint:
+   ```powershell
+   $headers = @{ "Content-Type" = "application/json" }
+   $body = '{"topic":"AI in healthcare","style":"professional"}'
+   Invoke-WebRequest -Uri "http://127.0.0.1:8009/write" -Method POST -Headers $headers -Body $body
+
+
+NOTE: TO upgrade further can be extended with real time camera feeds.
+
