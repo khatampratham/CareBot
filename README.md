@@ -17,5 +17,6 @@ AI for healthcare monitoring: fall detection, patient activity tracking, and ale
    python -m venv .venv
    .venv\Scripts\activate
 3. download requirements
+   ```powershell
    python -m pip install -r requirements.txt
 4. run the server
