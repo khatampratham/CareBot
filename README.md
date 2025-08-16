@@ -1,2 +1,1 @@
-# CareBot
-A multimodal AI system that provides companionship, medication reminders, and emergency detection for elderly users.
+# CareBot\nSimple reminders + endpoints; extend with speech and vision.
